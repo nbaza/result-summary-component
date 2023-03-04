@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Open+Sans&display=swap');
+
+
+main{
+    display:flex;
+    flex-direction: column; 
+    font-family: "Hanken Grotesk"; 
+}
+
+.headsection{
+    padding:24px 57px 40px 58px; 
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 0px 0px 32px 32px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items:center; 
+     
+}
+
+h3{
+    font-size:18px;
+    line-height:23.45px;
+    font-weight: 700;
+}
+
+.headsection h3{
+    color: #CAC9FF;
+}
+
+.resultpoints{
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    width:140px;
+    height:140px;
+    border-radius: 50%; 
+    text-align: center;
+    margin-top:24px;
+
+}
+
+.resultpoints h1{
+    font-size:56px;
+    line-height:72px;
+    font-weight:800;
+    color:white;
+    margin-top:25px;
+}
+
+p{
+    font-size:16px;
+    line-height:20.85px; 
+}
+
+.resultpoints p{
+    font-weight: 700;
+    color: #CAC9FF;
+}
+
+h2{
+    font-size:24px;
+    line-height:31.27px;
+    font-weight:700;
+}
+
+.headsection h2{
+    color:white;
+    margin-top:24px;
+}
+
+.percentage{
+    color: #CAC9FF;
+    font-weight:500;
+    margin-top:8px; 
+}
+
+.footersection{
+    padding:24px 30px 30px 30px; 
+
+}
+
+.footersection h3{
+    color: #303B59;
+}
+
+.stats{
+    margin-top:8px;
+}
+
+.card{
+    display:flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-top:16px; 
+    width:100%;
+    height:56px;
+    
+    border-radius:12px;     
+}
+
+.card img{
+    margin-left:20.17px; 
+}
+
+.skillname{
+     
+    margin-left:16.17px;
+}
+
+.score{
+    margin-left:auto;  
+    margin-right:16px;
+    font-weight:700; 
+    color:#303B59; 
+}
+.score span{
+    margin-left:8px;
+    opacity:0.5; 
+}
+
+#reaction{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555; 
+    color:#FF5555;
+}
+
+#memory{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    color:#FFB21E;
+}
+
+#verbal{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;  
+    color: #00BB8F; 
+
+}
+
+#visual{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    color: #1125D6;  
+
+}
+button{
+    margin-top:24px;
+    background-color:#303b59; 
+    border-radius:128px;
+    border:none; 
+    width:100%;
+    height:56px;  
+}
+
+button p{
+    color:white;
+    font-weight:700;
+    
+}
+
+button:hover{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%); 
+}
+
+
+@media only screen and (min-width: 1440px){
+    body{
+        display:flex;
+        justify-content: center;  
+        align-items: center;  
+        height:100vh; 
+        background-color: #ECF2FF; 
+    }
+    main{
+        flex-direction: row;
+        background-color: white; 
+        border-radius: 32px; 
+    }
+
+    .headsection{
+        padding:38px 54px 46px 54px;  
+        border-radius: 32px; 
+    }
+
+    h3{
+        font-size:24px;
+        line-height:31.27px; 
+    }
+     
+    .resultpoints{
+        width:200px;
+        height:200px;
+        margin-top:35px;    
+    }
+    
+    .resultpoints h1{
+        font-size:72px;
+        line-height:72px;
+        margin-top:55px; 
+    }
+    
+    p{
+        font-size:18px;
+        line-height:23.45px; 
+    }
+    
+    h2{
+        font-size:32px;
+        line-height:41.7px;
+    }
+    
+    .headsection h2{
+        margin-top:28px;
+    }
+
+    .percentage{
+        text-align: center; 
+        width:260px;  
+        margin-top:14px; 
+
+    }
+
+    .footersection{
+        padding:38px 40px 46px 40px;   
+    }
+    
+    .stats{
+        margin-top:12px; 
+    }
+    
+    .card{
+        margin-top:16px; 
+        width:288px;       
+    }
+
+    button{
+        margin-top:41px; 
+        width:288px; 
+    }
+}
