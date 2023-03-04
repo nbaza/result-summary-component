@@ -70,6 +70,7 @@ h2{
     color: #CAC9FF;
     font-weight:500;
     margin-top:8px; 
+    width:260px; 
 }
 
 .footersection{
@@ -209,7 +210,6 @@ button:hover{
 
     .percentage{
         text-align: center; 
-        width:260px;  
         margin-top:14px; 
 
     }
